@@ -4,6 +4,7 @@
     "name": "None",
     "email": "none@email.com"
   },
+  "url": "http://www.company.com",
   "defaultLocale": "en",
   "private": true,
   "location": {

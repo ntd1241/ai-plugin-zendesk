@@ -10,7 +10,7 @@
     "build:dev": "vite build --mode development",
     "build": "vite build --mode production",
     "lint": "eslint . --ext js,jsx --max-warnings 0",
-    "start": "zcli apps:server src",
+    "start": "npx @zendesk/zcli apps:server src",
     "start:prod": "zcli apps:server dist"
   },
   "dependencies": {
@@ -34,7 +34,9 @@
     "react-useanimations": "^2.10.0",
     "styled-components": "^5.3.6",
     "tailwind-merge": "^2.5.4",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "use-undo": "^1.1.1",
+    "zendesk_app_framework_sdk": "^2.0.11"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.1.0",
